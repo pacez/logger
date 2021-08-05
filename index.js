@@ -47,10 +47,3 @@ class Logger {
         this.timer = null;  
     }
 }
-
-logger = new UploadLogger({
-    duration: 1000,
-    upload:  (logQueue) => {
-        console.log('logQueue:',logQueue)
-    }
-});
