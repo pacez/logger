@@ -6,7 +6,7 @@
 
 ### 示例
 ```javascript
-logger = new UploadLogger({
+const logger = new Logger({
     duration: 1000,
     upload:  (logQueue) => {
         console.log('logQueue:',logQueue)
