@@ -2,7 +2,7 @@
 /**
  * 日志上传方法, 合并一定时长内的日志为数组
  * @config {
- *  duration: int, 非必填, 合并时长
+ *  duration: int, 非必填, 合并时长, 默认100ms
  *  upload: Fn, 非必填自定义上传方法
  * }
  * 
